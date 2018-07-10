@@ -18,6 +18,13 @@ namespace calculator
             double result = Calculate.Calculate(firstNumber, secondNumber);
             textResult.Text = result.ToString();
         }
+        private void buttontwo_Click(object sender, EventArgs e)
+        {
+            double firstNumber = Convert.ToDouble(textNumber1.Text);
+            IOneArgumentFactory Calculate = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = Calculate.Calculate(firstNumber);
+            textResult.Text = result.ToString();
+        }
         private void textNumber2_TextChanged(object sender, EventArgs e)
         {
 
@@ -29,6 +36,11 @@ namespace calculator
         }
 
         private void textResult_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
