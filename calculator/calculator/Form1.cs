@@ -44,5 +44,10 @@ namespace calculator
         {
 
         }
+
+        private void labelFife_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
