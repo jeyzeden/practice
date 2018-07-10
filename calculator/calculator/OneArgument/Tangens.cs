@@ -1,5 +1,5 @@
 ﻿using System;
-namespace calculator
+namespace calculator.OneArgument
 {
     public class Tangens : IOneArgumentFactory
     {

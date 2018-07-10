@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using calculator.OneArgument;
+using NUnit.Framework;
 
 namespace calculator.Test.OneArgumentTest
 {
-    class CosinusTest
+    [TestFixture]
+    public class CosinusTest
     {
+        [TestCase(0, 1)]
+        [TestCase(3.14, -0.99)]
+        [TestCase(5, 0.28)]
+        public void FirstTest(double value, double expected)
+        {
+            IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Cosinus");
+            double result = calculator.Calculate(value);
+            Assert.AreEqual(expected, result, 0.01);
+        }
     }
 }

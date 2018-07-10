@@ -1,5 +1,5 @@
 ﻿using System;
-namespace calculator
+namespace calculator.TwoArgument
 {
     public class TwoArgumentsFactory
     {
@@ -7,14 +7,14 @@ namespace calculator
         {
             switch (calculatorName)
             {
-                case "MultiplyCalculator":
-                    return new MultiplyCalculator();
-                case "DivisionCalculator":
-                    return new DivisionCalculator();
-                case "AdditionCalculator":
-                    return new AdditionCalculator();
-                case "SubstractionCalculator":
-                    return new SubstractionCalculator();
+                case "Multiply":
+                    return new Multiply();
+                case "Division":
+                    return new Division();
+                case "Addition":
+                    return new Addition();
+                case "Substraction":
+                    return new Substraction();
                 default:
                     throw new Exception("Неизвестная операция");
             }

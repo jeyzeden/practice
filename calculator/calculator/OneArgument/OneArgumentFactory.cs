@@ -1,7 +1,7 @@
 ﻿using System;
-namespace calculator
+namespace calculator.OneArgument
 {
-    class OneArgumentFactory
+    public class OneArgumentFactory
     {
         public static IOneArgumentFactory CreateCalculator(string calculatorName)
         {
@@ -13,8 +13,6 @@ namespace calculator
                     return new Sinus();
                 case "Square":
                     return new Square();
-                case "Module":
-                    return new Module();
                 case "Tangens":
                     return new Tangens();
                 default:
