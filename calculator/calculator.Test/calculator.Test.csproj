@@ -64,6 +64,16 @@
     <Compile Include="OneArgument\TenExpTest.cs" />
     <Compile Include="OneArgument\TwoExpTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArgument\SubsractionSquareTest.cs" />
+    <Compile Include="TwoArgument\Pow.cs" />
+    <Compile Include="TwoArgument\MultiplyCubeTest.cs" />
+    <Compile Include="TwoArgument\MultiplySquareTest.cs" />
+    <Compile Include="TwoArgument\Min.cs" />
+    <Compile Include="TwoArgument\Max.cs" />
+    <Compile Include="TwoArgument\DivivsionCubeTest.cs" />
+    <Compile Include="TwoArgument\DivivsionSquareTest.cs" />
+    <Compile Include="TwoArgument\AdditionSquareTest.cs" />
+    <Compile Include="TwoArgument\AdditionCubeTest.cs" />
     <Compile Include="TwoArgument\AdditionTest.cs" />
     <Compile Include="TwoArgument\DivisionTest.cs" />
     <Compile Include="TwoArgument\MultiplyTest.cs" />
