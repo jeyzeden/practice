@@ -7,7 +7,9 @@ namespace calculator.TwoArgument
         /// Create Factory
         /// </summary>
         /// <param name="calculatorName"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// Return incstanse of class
+        /// </returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

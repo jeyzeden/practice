@@ -12,6 +12,5 @@ namespace calculator.OneArgument
         {
             return Math.Pow(2, firstArgument);
         }
-
     }
 }
