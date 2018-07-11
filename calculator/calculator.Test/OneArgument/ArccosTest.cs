@@ -1,4 +1,5 @@
-﻿using calculator.OneArgument;
+﻿using System;
+using calculator.OneArgument;
 using NUnit.Framework;
 
 namespace calculator.Test.OneArgument
@@ -14,6 +15,13 @@ namespace calculator.Test.OneArgument
             IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Arccos");
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
+        }
+        [TestCase(-1.1)]
+        [TestCase(1.1)]
+        public void ExceptionLessThanZeroTest(double firstArgument)
+        {
+            var calculator = new Arccos();
+            Assert.Throws<Exception>(() => calculator.Calculate(firstArgument));
         }
     }
 }

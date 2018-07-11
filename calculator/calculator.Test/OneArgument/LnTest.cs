@@ -1,5 +1,6 @@
 ﻿using calculator.OneArgument;
 using NUnit.Framework;
+using System;
 
 namespace calculator.Test.OneArgument
 {
@@ -14,6 +15,13 @@ namespace calculator.Test.OneArgument
             IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Ln");
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
+        }
+        [TestCase(-1)]
+        [TestCase(0)]
+        public void ExceptionLessThanZeroTest(double firstArgument)
+        {
+            var calculator = new Ln();
+            Assert.Throws<Exception>(() => calculator.Calculate(firstArgument));
         }
     }
 }

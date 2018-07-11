@@ -1,5 +1,6 @@
 ﻿using calculator.TwoArgument;
 using NUnit.Framework;
+using System;
 
 namespace calculator.Test.TwoArgument
 {
@@ -14,6 +15,13 @@ namespace calculator.Test.TwoArgument
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("DivisionCube");
             double result = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, result, 0.01);
+        }
+        [TestCase(0)]
+        [TestCase(10)]
+        public void ExceptionLessThanZeroTest(double firstArgument, double secondArgument)
+        {
+            var calculator = new Division();
+            Assert.Throws<Exception>(() => calculator.Calculate(firstArgument, secondArgument));
         }
     }
 }
