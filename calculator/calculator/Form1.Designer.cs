@@ -30,10 +30,10 @@
         {
             this.textNumber1 = new System.Windows.Forms.TextBox();
             this.textNumber2 = new System.Windows.Forms.TextBox();
-            this.AdditionCalculator = new System.Windows.Forms.Button();
-            this.SubstractionCalculator = new System.Windows.Forms.Button();
-            this.MultiplyCalculator = new System.Windows.Forms.Button();
-            this.DivisionCalculator = new System.Windows.Forms.Button();
+            this.Addition = new System.Windows.Forms.Button();
+            this.Substraction = new System.Windows.Forms.Button();
+            this.Multiply = new System.Windows.Forms.Button();
+            this.Division = new System.Windows.Forms.Button();
             this.textResult = new System.Windows.Forms.TextBox();
             this.labelOne = new System.Windows.Forms.Label();
             this.labelTwo = new System.Windows.Forms.Label();
@@ -54,6 +54,16 @@
             this.TenExp = new System.Windows.Forms.Button();
             this.Cube = new System.Windows.Forms.Button();
             this.Fraction = new System.Windows.Forms.Button();
+            this.SubstractionSquare = new System.Windows.Forms.Button();
+            this.Pow = new System.Windows.Forms.Button();
+            this.MultiplySquare = new System.Windows.Forms.Button();
+            this.Min = new System.Windows.Forms.Button();
+            this.MultiplyCube = new System.Windows.Forms.Button();
+            this.Max = new System.Windows.Forms.Button();
+            this.DivisionSquare = new System.Windows.Forms.Button();
+            this.AdditionSquare = new System.Windows.Forms.Button();
+            this.DivisionCube = new System.Windows.Forms.Button();
+            this.AdditionCube = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textNumber1
@@ -72,45 +82,45 @@
             this.textNumber2.TabIndex = 1;
             this.textNumber2.TextChanged += new System.EventHandler(this.textNumber2_TextChanged);
             // 
-            // AdditionCalculator
+            // Addition
             // 
-            this.AdditionCalculator.Location = new System.Drawing.Point(12, 153);
-            this.AdditionCalculator.Name = "AdditionCalculator";
-            this.AdditionCalculator.Size = new System.Drawing.Size(79, 61);
-            this.AdditionCalculator.TabIndex = 2;
-            this.AdditionCalculator.Text = "+";
-            this.AdditionCalculator.UseVisualStyleBackColor = true;
-            this.AdditionCalculator.Click += new System.EventHandler(this.button_Click);
+            this.Addition.Location = new System.Drawing.Point(12, 153);
+            this.Addition.Name = "Addition";
+            this.Addition.Size = new System.Drawing.Size(79, 61);
+            this.Addition.TabIndex = 2;
+            this.Addition.Text = "+";
+            this.Addition.UseVisualStyleBackColor = true;
+            this.Addition.Click += new System.EventHandler(this.button_Click);
             // 
-            // SubstractionCalculator
+            // Substraction
             // 
-            this.SubstractionCalculator.Location = new System.Drawing.Point(97, 153);
-            this.SubstractionCalculator.Name = "SubstractionCalculator";
-            this.SubstractionCalculator.Size = new System.Drawing.Size(79, 61);
-            this.SubstractionCalculator.TabIndex = 3;
-            this.SubstractionCalculator.Text = "-";
-            this.SubstractionCalculator.UseVisualStyleBackColor = true;
-            this.SubstractionCalculator.Click += new System.EventHandler(this.button_Click);
+            this.Substraction.Location = new System.Drawing.Point(97, 153);
+            this.Substraction.Name = "Substraction";
+            this.Substraction.Size = new System.Drawing.Size(79, 61);
+            this.Substraction.TabIndex = 3;
+            this.Substraction.Text = "-";
+            this.Substraction.UseVisualStyleBackColor = true;
+            this.Substraction.Click += new System.EventHandler(this.button_Click);
             // 
-            // MultiplyCalculator
+            // Multiply
             // 
-            this.MultiplyCalculator.Location = new System.Drawing.Point(12, 220);
-            this.MultiplyCalculator.Name = "MultiplyCalculator";
-            this.MultiplyCalculator.Size = new System.Drawing.Size(79, 61);
-            this.MultiplyCalculator.TabIndex = 4;
-            this.MultiplyCalculator.Text = "*";
-            this.MultiplyCalculator.UseVisualStyleBackColor = true;
-            this.MultiplyCalculator.Click += new System.EventHandler(this.button_Click);
+            this.Multiply.Location = new System.Drawing.Point(12, 220);
+            this.Multiply.Name = "Multiply";
+            this.Multiply.Size = new System.Drawing.Size(79, 61);
+            this.Multiply.TabIndex = 4;
+            this.Multiply.Text = "*";
+            this.Multiply.UseVisualStyleBackColor = true;
+            this.Multiply.Click += new System.EventHandler(this.button_Click);
             // 
-            // DivisionCalculator
+            // Division
             // 
-            this.DivisionCalculator.Location = new System.Drawing.Point(97, 220);
-            this.DivisionCalculator.Name = "DivisionCalculator";
-            this.DivisionCalculator.Size = new System.Drawing.Size(79, 61);
-            this.DivisionCalculator.TabIndex = 5;
-            this.DivisionCalculator.Text = "/";
-            this.DivisionCalculator.UseVisualStyleBackColor = true;
-            this.DivisionCalculator.Click += new System.EventHandler(this.button_Click);
+            this.Division.Location = new System.Drawing.Point(97, 220);
+            this.Division.Name = "Division";
+            this.Division.Size = new System.Drawing.Size(79, 61);
+            this.Division.TabIndex = 5;
+            this.Division.Text = "/";
+            this.Division.UseVisualStyleBackColor = true;
+            this.Division.Click += new System.EventHandler(this.button_Click);
             // 
             // textResult
             // 
@@ -307,11 +317,121 @@
             this.Fraction.UseVisualStyleBackColor = true;
             this.Fraction.Click += new System.EventHandler(this.buttontwo_Click);
             // 
+            // SubstractionSquare
+            // 
+            this.SubstractionSquare.Location = new System.Drawing.Point(625, 220);
+            this.SubstractionSquare.Name = "SubstractionSquare";
+            this.SubstractionSquare.Size = new System.Drawing.Size(79, 61);
+            this.SubstractionSquare.TabIndex = 36;
+            this.SubstractionSquare.Text = "x^2-y^2";
+            this.SubstractionSquare.UseVisualStyleBackColor = true;
+            this.SubstractionSquare.Click += new System.EventHandler(this.button_Click);
+            // 
+            // Pow
+            // 
+            this.Pow.Location = new System.Drawing.Point(625, 153);
+            this.Pow.Name = "Pow";
+            this.Pow.Size = new System.Drawing.Size(79, 61);
+            this.Pow.TabIndex = 35;
+            this.Pow.Text = "x^y";
+            this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.button_Click);
+            // 
+            // MultiplySquare
+            // 
+            this.MultiplySquare.Location = new System.Drawing.Point(540, 220);
+            this.MultiplySquare.Name = "MultiplySquare";
+            this.MultiplySquare.Size = new System.Drawing.Size(79, 61);
+            this.MultiplySquare.TabIndex = 34;
+            this.MultiplySquare.Text = "x^2*y^2";
+            this.MultiplySquare.UseVisualStyleBackColor = true;
+            this.MultiplySquare.Click += new System.EventHandler(this.button_Click);
+            // 
+            // Min
+            // 
+            this.Min.Location = new System.Drawing.Point(455, 220);
+            this.Min.Name = "Min";
+            this.Min.Size = new System.Drawing.Size(79, 61);
+            this.Min.TabIndex = 33;
+            this.Min.Text = "min";
+            this.Min.UseVisualStyleBackColor = true;
+            this.Min.Click += new System.EventHandler(this.button_Click);
+            // 
+            // MultiplyCube
+            // 
+            this.MultiplyCube.Location = new System.Drawing.Point(540, 153);
+            this.MultiplyCube.Name = "MultiplyCube";
+            this.MultiplyCube.Size = new System.Drawing.Size(79, 61);
+            this.MultiplyCube.TabIndex = 32;
+            this.MultiplyCube.Text = "x^3*y^3";
+            this.MultiplyCube.UseVisualStyleBackColor = true;
+            this.MultiplyCube.Click += new System.EventHandler(this.button_Click);
+            // 
+            // Max
+            // 
+            this.Max.Location = new System.Drawing.Point(455, 153);
+            this.Max.Name = "Max";
+            this.Max.Size = new System.Drawing.Size(79, 61);
+            this.Max.TabIndex = 31;
+            this.Max.Text = "max";
+            this.Max.UseVisualStyleBackColor = true;
+            this.Max.Click += new System.EventHandler(this.button_Click);
+            // 
+            // DivisionSquare
+            // 
+            this.DivisionSquare.Location = new System.Drawing.Point(370, 220);
+            this.DivisionSquare.Name = "DivisionSquare";
+            this.DivisionSquare.Size = new System.Drawing.Size(79, 61);
+            this.DivisionSquare.TabIndex = 30;
+            this.DivisionSquare.Text = "x^2/y^2";
+            this.DivisionSquare.UseVisualStyleBackColor = true;
+            this.DivisionSquare.Click += new System.EventHandler(this.button_Click);
+            // 
+            // AdditionSquare
+            // 
+            this.AdditionSquare.Location = new System.Drawing.Point(285, 220);
+            this.AdditionSquare.Name = "AdditionSquare";
+            this.AdditionSquare.Size = new System.Drawing.Size(79, 61);
+            this.AdditionSquare.TabIndex = 29;
+            this.AdditionSquare.Text = "x^2+y^2";
+            this.AdditionSquare.UseVisualStyleBackColor = true;
+            this.AdditionSquare.Click += new System.EventHandler(this.button_Click);
+            // 
+            // DivisionCube
+            // 
+            this.DivisionCube.Location = new System.Drawing.Point(370, 153);
+            this.DivisionCube.Name = "DivisionCube";
+            this.DivisionCube.Size = new System.Drawing.Size(79, 61);
+            this.DivisionCube.TabIndex = 28;
+            this.DivisionCube.Text = "x^3/y^3";
+            this.DivisionCube.UseVisualStyleBackColor = true;
+            this.DivisionCube.Click += new System.EventHandler(this.button_Click);
+            // 
+            // AdditionCube
+            // 
+            this.AdditionCube.Location = new System.Drawing.Point(285, 153);
+            this.AdditionCube.Name = "AdditionCube";
+            this.AdditionCube.Size = new System.Drawing.Size(79, 61);
+            this.AdditionCube.TabIndex = 27;
+            this.AdditionCube.Text = "x^3+y^3";
+            this.AdditionCube.UseVisualStyleBackColor = true;
+            this.AdditionCube.Click += new System.EventHandler(this.button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1178, 471);
+            this.Controls.Add(this.SubstractionSquare);
+            this.Controls.Add(this.Pow);
+            this.Controls.Add(this.MultiplySquare);
+            this.Controls.Add(this.Min);
+            this.Controls.Add(this.MultiplyCube);
+            this.Controls.Add(this.Max);
+            this.Controls.Add(this.DivisionSquare);
+            this.Controls.Add(this.AdditionSquare);
+            this.Controls.Add(this.DivisionCube);
+            this.Controls.Add(this.AdditionCube);
             this.Controls.Add(this.Cube);
             this.Controls.Add(this.Fraction);
             this.Controls.Add(this.Exp);
@@ -332,10 +452,10 @@
             this.Controls.Add(this.labelTwo);
             this.Controls.Add(this.labelOne);
             this.Controls.Add(this.textResult);
-            this.Controls.Add(this.DivisionCalculator);
-            this.Controls.Add(this.MultiplyCalculator);
-            this.Controls.Add(this.SubstractionCalculator);
-            this.Controls.Add(this.AdditionCalculator);
+            this.Controls.Add(this.Division);
+            this.Controls.Add(this.Multiply);
+            this.Controls.Add(this.Substraction);
+            this.Controls.Add(this.Addition);
             this.Controls.Add(this.textNumber2);
             this.Controls.Add(this.textNumber1);
             this.Name = "Form1";
@@ -349,10 +469,10 @@
 
         private System.Windows.Forms.TextBox textNumber1;
         private System.Windows.Forms.TextBox textNumber2;
-        private System.Windows.Forms.Button AdditionCalculator;
-        private System.Windows.Forms.Button SubstractionCalculator;
-        private System.Windows.Forms.Button MultiplyCalculator;
-        private System.Windows.Forms.Button DivisionCalculator;
+        private System.Windows.Forms.Button Addition;
+        private System.Windows.Forms.Button Substraction;
+        private System.Windows.Forms.Button Multiply;
+        private System.Windows.Forms.Button Division;
         private System.Windows.Forms.TextBox textResult;
         private System.Windows.Forms.Label labelOne;
         private System.Windows.Forms.Label labelTwo;
@@ -373,6 +493,16 @@
         private System.Windows.Forms.Button TenExp;
         private System.Windows.Forms.Button Cube;
         private System.Windows.Forms.Button Fraction;
+        private System.Windows.Forms.Button SubstractionSquare;
+        private System.Windows.Forms.Button Pow;
+        private System.Windows.Forms.Button MultiplySquare;
+        private System.Windows.Forms.Button Min;
+        private System.Windows.Forms.Button MultiplyCube;
+        private System.Windows.Forms.Button Max;
+        private System.Windows.Forms.Button DivisionSquare;
+        private System.Windows.Forms.Button AdditionSquare;
+        private System.Windows.Forms.Button DivisionCube;
+        private System.Windows.Forms.Button AdditionCube;
     }
 }
 

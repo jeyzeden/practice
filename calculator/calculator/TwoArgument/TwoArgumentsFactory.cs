@@ -15,6 +15,26 @@ namespace calculator.TwoArgument
                     return new Addition();
                 case "Substraction":
                     return new Substraction();
+                case "MultiplyCube":
+                    return new MultiplyCube();
+                case "DivisionCube":
+                    return new DivisionCube();
+                case "AdditionCube":
+                    return new AdditionCube();
+                case "SubstractionSquare":
+                    return new SubstractionSquare();
+                case "MultiplySquare":
+                    return new MultiplySquare();
+                case "DivisionSquare":
+                    return new DivisionSquare();
+                case "AdditionSquare":
+                    return new AdditionSquare();
+                case "Max":
+                    return new Max();
+                case "Min":
+                    return new Min();
+                case "Pow":
+                    return new Pow();
                 default:
                     throw new Exception("Неизвестная операция");
             }
