@@ -2,6 +2,12 @@
 
 namespace calculator.OneArgument
 {
+    /// <summary>
+    /// Calculate Fraction
+    /// invalid value 0
+    /// </summary>
+    /// <param name="firstArgument"></param>
+    /// <returns></returns>
     public class Fraction : IOneArgumentFactory
     {
         public double Calculate(double firstArgument)

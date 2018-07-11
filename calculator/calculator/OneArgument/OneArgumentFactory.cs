@@ -3,6 +3,11 @@ namespace calculator.OneArgument
 {
     public class OneArgumentFactory
     {
+        /// <summary>
+        /// Create Factory
+        /// </summary>
+        /// <param name="calculatorName"></param>
+        /// <returns></returns>
         public static IOneArgumentFactory CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
