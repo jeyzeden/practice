@@ -53,12 +53,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Arccos.cs" />
+    <Compile Include="OneArgument\Arcsin.cs" />
+    <Compile Include="OneArgument\Arctg.cs" />
     <Compile Include="OneArgument\Cosinus.cs" />
+    <Compile Include="OneArgument\Cube.cs" />
+    <Compile Include="OneArgument\Exp.cs" />
+    <Compile Include="OneArgument\Fraction.cs" />
     <Compile Include="OneArgument\IOneArgumentFactory.cs" />
+    <Compile Include="OneArgument\Ln.cs" />
+    <Compile Include="OneArgument\Module.cs" />
     <Compile Include="OneArgument\OneArgumentFactory.cs" />
     <Compile Include="OneArgument\Sinus.cs" />
     <Compile Include="OneArgument\Square.cs" />
     <Compile Include="OneArgument\Tangens.cs" />
+    <Compile Include="OneArgument\TenExp.cs" />
+    <Compile Include="OneArgument\TwoExp.cs" />
     <Compile Include="TwoArgument\Addition.cs" />
     <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="Form1.cs">

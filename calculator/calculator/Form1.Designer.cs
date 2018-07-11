@@ -44,6 +44,16 @@
             this.Tangens = new System.Windows.Forms.Button();
             this.labelFife = new System.Windows.Forms.Label();
             this.labelFour = new System.Windows.Forms.Label();
+            this.TwoExp = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
+            this.Arctg = new System.Windows.Forms.Button();
+            this.Arccos = new System.Windows.Forms.Button();
+            this.Exp = new System.Windows.Forms.Button();
+            this.Module = new System.Windows.Forms.Button();
+            this.Ln = new System.Windows.Forms.Button();
+            this.TenExp = new System.Windows.Forms.Button();
+            this.Cube = new System.Windows.Forms.Button();
+            this.Fraction = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textNumber1
@@ -197,11 +207,121 @@
             this.labelFour.TabIndex = 16;
             this.labelFour.Text = "Two Argument Functions";
             // 
+            // TwoExp
+            // 
+            this.TwoExp.Location = new System.Drawing.Point(370, 374);
+            this.TwoExp.Name = "TwoExp";
+            this.TwoExp.Size = new System.Drawing.Size(79, 61);
+            this.TwoExp.TabIndex = 20;
+            this.TwoExp.Text = "2^x";
+            this.TwoExp.UseVisualStyleBackColor = true;
+            this.TwoExp.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Arcsin
+            // 
+            this.Arcsin.Location = new System.Drawing.Point(285, 374);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(79, 61);
+            this.Arcsin.TabIndex = 19;
+            this.Arcsin.Text = "asin(x)";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Arctg
+            // 
+            this.Arctg.Location = new System.Drawing.Point(370, 307);
+            this.Arctg.Name = "Arctg";
+            this.Arctg.Size = new System.Drawing.Size(79, 61);
+            this.Arctg.TabIndex = 18;
+            this.Arctg.Text = "atg(x)";
+            this.Arctg.UseVisualStyleBackColor = true;
+            this.Arctg.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Arccos
+            // 
+            this.Arccos.Location = new System.Drawing.Point(285, 307);
+            this.Arccos.Name = "Arccos";
+            this.Arccos.Size = new System.Drawing.Size(79, 61);
+            this.Arccos.TabIndex = 17;
+            this.Arccos.Text = "acos(x)";
+            this.Arccos.UseVisualStyleBackColor = true;
+            this.Arccos.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Exp
+            // 
+            this.Exp.Location = new System.Drawing.Point(540, 374);
+            this.Exp.Name = "Exp";
+            this.Exp.Size = new System.Drawing.Size(79, 61);
+            this.Exp.TabIndex = 24;
+            this.Exp.Text = "e^x";
+            this.Exp.UseVisualStyleBackColor = true;
+            this.Exp.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Module
+            // 
+            this.Module.Location = new System.Drawing.Point(455, 374);
+            this.Module.Name = "Module";
+            this.Module.Size = new System.Drawing.Size(79, 61);
+            this.Module.TabIndex = 23;
+            this.Module.Text = "|x|";
+            this.Module.UseVisualStyleBackColor = true;
+            this.Module.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Ln
+            // 
+            this.Ln.Location = new System.Drawing.Point(540, 307);
+            this.Ln.Name = "Ln";
+            this.Ln.Size = new System.Drawing.Size(79, 61);
+            this.Ln.TabIndex = 22;
+            this.Ln.Text = "ln(x)";
+            this.Ln.UseVisualStyleBackColor = true;
+            this.Ln.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // TenExp
+            // 
+            this.TenExp.Location = new System.Drawing.Point(455, 307);
+            this.TenExp.Name = "TenExp";
+            this.TenExp.Size = new System.Drawing.Size(79, 61);
+            this.TenExp.TabIndex = 21;
+            this.TenExp.Text = "10^x";
+            this.TenExp.UseVisualStyleBackColor = true;
+            this.TenExp.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Cube
+            // 
+            this.Cube.Location = new System.Drawing.Point(625, 374);
+            this.Cube.Name = "Cube";
+            this.Cube.Size = new System.Drawing.Size(79, 61);
+            this.Cube.TabIndex = 26;
+            this.Cube.Text = "x^3";
+            this.Cube.UseVisualStyleBackColor = true;
+            this.Cube.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
+            // Fraction
+            // 
+            this.Fraction.Location = new System.Drawing.Point(625, 307);
+            this.Fraction.Name = "Fraction";
+            this.Fraction.Size = new System.Drawing.Size(79, 61);
+            this.Fraction.TabIndex = 25;
+            this.Fraction.Text = "1/x";
+            this.Fraction.UseVisualStyleBackColor = true;
+            this.Fraction.Click += new System.EventHandler(this.buttontwo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 496);
+            this.ClientSize = new System.Drawing.Size(1178, 471);
+            this.Controls.Add(this.Cube);
+            this.Controls.Add(this.Fraction);
+            this.Controls.Add(this.Exp);
+            this.Controls.Add(this.Module);
+            this.Controls.Add(this.Ln);
+            this.Controls.Add(this.TenExp);
+            this.Controls.Add(this.TwoExp);
+            this.Controls.Add(this.Arcsin);
+            this.Controls.Add(this.Arctg);
+            this.Controls.Add(this.Arccos);
             this.Controls.Add(this.labelFour);
             this.Controls.Add(this.labelFife);
             this.Controls.Add(this.Tangens);
@@ -243,6 +363,16 @@
         private System.Windows.Forms.Button Tangens;
         private System.Windows.Forms.Label labelFife;
         private System.Windows.Forms.Label labelFour;
+        private System.Windows.Forms.Button TwoExp;
+        private System.Windows.Forms.Button Arcsin;
+        private System.Windows.Forms.Button Arctg;
+        private System.Windows.Forms.Button Arccos;
+        private System.Windows.Forms.Button Exp;
+        private System.Windows.Forms.Button Module;
+        private System.Windows.Forms.Button Ln;
+        private System.Windows.Forms.Button TenExp;
+        private System.Windows.Forms.Button Cube;
+        private System.Windows.Forms.Button Fraction;
     }
 }
 
