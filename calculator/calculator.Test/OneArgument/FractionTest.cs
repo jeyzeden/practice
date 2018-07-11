@@ -1,17 +1,17 @@
 ﻿using calculator.OneArgument;
 using NUnit.Framework;
 
-namespace calculator.Test.OneArgumentTest
+namespace calculator.Test.OneArgument
 {
     [TestFixture]
-    public class CosinusTest
+    public class FractionTest
     {
-        [TestCase(0, 1)]
-        [TestCase(3.14, -0.99)]
-        [TestCase(5, 0.28)]
+        [TestCase(1, 1)]
+        [TestCase(2, 0.5)]
+        [TestCase(4, 0.25)]
         public void FirstTest(double value, double expected)
         {
-            IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Cosinus");
+            IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Fraction");
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
         }

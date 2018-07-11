@@ -2,7 +2,7 @@
 using calculator.TwoArgument;
 using NUnit.Framework;
 
-namespace calculator.Test.FactoryTest
+namespace calculator.Test.Factory
 {
     class TwoArgumentFactoryTest
     {
