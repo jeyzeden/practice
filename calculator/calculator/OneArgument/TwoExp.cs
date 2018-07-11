@@ -4,7 +4,7 @@ namespace calculator.OneArgument
     public class TwoExp : IOneArgumentFactory
     {
         /// <summary>
-        /// Calculate TwoExp
+        /// Calculate 2 ^ exponent
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

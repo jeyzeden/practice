@@ -2,9 +2,9 @@
 using calculator.OneArgument;
 using NUnit.Framework;
 
-namespace calculator.Test.Factory
+namespace calculator.Test.OneArgument
 {
-    class OneArgumentFactoryTest
+    class OneArgumentFactoryTests
     {
         [TestCase("Cosinus", typeof(Cosinus))]
         [TestCase("Tangens", typeof(Tangens))]

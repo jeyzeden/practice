@@ -4,7 +4,7 @@ namespace calculator.TwoArgument
     public class Pow : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// Calculate Multiply
+        /// Calculate firstArgument^secondArgument
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <param name="secondArgument"></param>

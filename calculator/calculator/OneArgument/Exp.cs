@@ -4,7 +4,7 @@ namespace calculator.OneArgument
     public class Exp : IOneArgumentFactory
     {
         /// <summary>
-        /// Calculate Exp
+        /// Сalculation of the exponent * exponent any (firstArgument) times
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

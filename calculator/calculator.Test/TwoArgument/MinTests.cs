@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace calculator.Test.TwoArgument
 {
     [TestFixture]
-    public class MultiplyCubeTest
+    public class MinTests
     {
-        [TestCase(1, 3, 27)]
-        [TestCase(2, 3, 216)]
-        [TestCase(4, 2, 512)]
+        [TestCase(1, 3, 1)]
+        [TestCase(2, 3, 2)]
+        [TestCase(4, 2, 2)]
         public void FirstTest(double firstValue, double secondValue, double expected)
         {
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("MultiplyCube");
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("Min");
             double result = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, result, 0.01);
         }

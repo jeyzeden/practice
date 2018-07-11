@@ -4,7 +4,7 @@ namespace calculator.OneArgument
     public class Square : IOneArgumentFactory
     {
         /// <summary>
-        /// Calculate Square
+        /// Calculate firstArgument * firstArgument
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

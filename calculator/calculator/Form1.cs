@@ -18,8 +18,8 @@ namespace calculator
             {
                 double firstNumber = Convert.ToDouble(textNumber1.Text);
                 double secondNumber = Convert.ToDouble(textNumber2.Text);
-                ITwoArgumentsCalculator Calculate = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-                double result = Calculate.Calculate(firstNumber, secondNumber);
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstNumber, secondNumber);
                 textResult.Text = result.ToString();
             }
             catch (Exception ex)
@@ -32,8 +32,8 @@ namespace calculator
             try
             {
                 double firstNumber = Convert.ToDouble(textNumber1.Text);
-                IOneArgumentFactory Calculate = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-                double result = Calculate.Calculate(firstNumber);
+                IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstNumber);
                 textResult.Text = result.ToString();
             }
             catch (Exception ex)

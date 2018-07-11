@@ -5,7 +5,7 @@ using System;
 namespace calculator.Test.TwoArgument
 {
     [TestFixture]
-    public class DivisionSquareTest
+    public class DivisionSquareTests
     {
         [TestCase(1, 3, 0.11)]
         [TestCase(2, 3, 0.44)]

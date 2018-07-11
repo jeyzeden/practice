@@ -4,7 +4,7 @@ namespace calculator.OneArgument
     public class TenExp : IOneArgumentFactory
     {
         /// <summary>
-        /// Calculate TenExp
+        /// Calculate 10 ^ exponent
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace calculator.Test.OneArgument
 {
     [TestFixture]
-    public class ModuleTest
+    public class SinusTests
     {
-        [TestCase(-3, 3)]
-        [TestCase(4, 4)]
-        [TestCase(-34, 34)]
+        [TestCase(0, 0)]
+        [TestCase(3.14, 0.01)]
+        [TestCase(5, -0.95)]
         public void FirstTest(double value, double expected)
         {
-            IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Module");
+            IOneArgumentFactory calculator = OneArgumentFactory.CreateCalculator("Sinus");
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
         }

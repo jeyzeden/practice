@@ -6,7 +6,7 @@ namespace calculator.OneArgument
     {
         /// <summary>
         /// Calculate Arcsin
-        /// invalid values before -1 and after 1
+        /// invalid values (-1; 1)
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

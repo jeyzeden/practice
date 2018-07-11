@@ -3,7 +3,7 @@
     public interface IOneArgumentFactory
     {
         /// <summary>
-        /// Create Interface
+        /// Create interface for functions with one arguments
         /// </summary>
         double Calculate(double firstAgrument);
     }

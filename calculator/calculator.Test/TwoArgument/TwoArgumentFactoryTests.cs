@@ -2,9 +2,9 @@
 using calculator.TwoArgument;
 using NUnit.Framework;
 
-namespace calculator.Test.Factory
+namespace calculator.Test.TwoArgument
 {
-    class TwoArgumentFactoryTest
+    class TwoArgumentFactoryTests
     {
         [TestCase("Addition", typeof(Addition))]
         [TestCase("Multiply", typeof(Multiply))]

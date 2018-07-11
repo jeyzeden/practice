@@ -4,7 +4,7 @@ namespace calculator.TwoArgument
     public class AdditionSquare : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// Calculate Adding squares
+        /// Calculate sum of square
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <param name="secondArgument"></param>

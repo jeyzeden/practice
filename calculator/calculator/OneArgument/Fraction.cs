@@ -2,14 +2,14 @@
 
 namespace calculator.OneArgument
 {
-    /// <summary>
-    /// Calculate Fraction
-    /// invalid value 0
-    /// </summary>
-    /// <param name="firstArgument"></param>
-    /// <returns></returns>
     public class Fraction : IOneArgumentFactory
     {
+        /// <summary>
+        /// Calculate 1 division on firstArgument
+        /// invalid value 0
+        /// </summary>
+        /// <param name="firstArgument"></param>
+        /// <returns></returns>
         public double Calculate(double firstArgument)
         {
             if (firstArgument == 0)

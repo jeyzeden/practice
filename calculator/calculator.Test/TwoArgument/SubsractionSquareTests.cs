@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace calculator.Test.TwoArgument
 {
     [TestFixture]
-    public class MultiplySquareTest
+    public class SubstractionSquareTests
     {
-        [TestCase(1, 3, 9)]
-        [TestCase(2, 3, 36)]
-        [TestCase(4, 2, 64)]
+        [TestCase(1, 3, -8)]
+        [TestCase(2, 3, -5)]
+        [TestCase(4, 2, 12)]
         public void FirstTest(double firstValue, double secondValue, double expected)
         {
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("MultiplySquare");
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("SubstractionSquare");
             double result = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, result, 0.01);
         }

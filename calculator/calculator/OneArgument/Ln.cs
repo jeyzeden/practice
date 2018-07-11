@@ -5,8 +5,8 @@ namespace calculator.OneArgument
     public class Ln : IOneArgumentFactory
     {
         /// <summary>
-        /// Calculate Ln
-        /// invalid values before 0 and after -1
+        /// Calculate Log
+        /// invalid values: 0, -1
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

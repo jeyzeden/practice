@@ -5,7 +5,7 @@ using System;
 namespace calculator.Test.OneArgument
 {
     [TestFixture]
-    public class ArcsinTest
+    public class ArcsinTests
     {
         [TestCase(0, 0)]
         [TestCase(0.5, 0.52)]

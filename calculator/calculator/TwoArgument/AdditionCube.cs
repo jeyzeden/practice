@@ -4,7 +4,7 @@ namespace calculator.TwoArgument
     public class AdditionCube : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// Calculate Adding cubes
+        /// Calculate sum of cubes
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <param name="secondArgument"></param>

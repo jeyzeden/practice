@@ -4,8 +4,9 @@ namespace calculator.TwoArgument
     public class TwoArgumentsFactory
     {
         /// <summary>
-        /// Create Factory
+        /// fabrica for function of one variables 
         /// </summary>
+        /// the definition of the function on click
         /// <param name="calculatorName"></param>
         /// <returns>
         /// Return incstanse of class

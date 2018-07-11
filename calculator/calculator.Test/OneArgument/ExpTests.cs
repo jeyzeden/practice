@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace calculator.Test.OneArgument
 {
     [TestFixture]
-    public class ExpTest
+    public class ExpTests
     {
         [TestCase(0, 1)]
         [TestCase(1, 2.72)]

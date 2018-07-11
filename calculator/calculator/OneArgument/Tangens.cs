@@ -11,8 +11,6 @@ namespace calculator.OneArgument
         public double Calculate(double firstArgument)
         {
             return Math.Tan(firstArgument);
-
         }
-
     }
 }
