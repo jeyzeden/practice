@@ -3,6 +3,11 @@ namespace calculator.TwoArgument
 {
     public class TwoArgumentsFactory
     {
+        /// <summary>
+        /// Create Factory
+        /// </summary>
+        /// <param name="calculatorName"></param>
+        /// <returns></returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
