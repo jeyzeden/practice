@@ -16,6 +16,7 @@ namespace calculator.Test.OneArgument
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
         }
+
         [TestCase(-1.1)]
         [TestCase(1.1)]
         public void ExceptionLessThanZeroTest(double firstArgument)

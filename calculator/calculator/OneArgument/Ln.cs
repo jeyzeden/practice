@@ -6,7 +6,7 @@ namespace calculator.OneArgument
     {
         /// <summary>
         /// Calculate Log
-        /// invalid values: 0, -1
+        /// invalid values: 0; -1
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <returns></returns>

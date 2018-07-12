@@ -1,7 +1,7 @@
 ﻿namespace calculator.TwoArgument
 {
     /// <summary>
-    /// Create interface for functions with one arguments
+    /// interface for functions with one argument
     /// </summary>
     public interface ITwoArgumentsCalculator
     {

@@ -68,25 +68,28 @@
             // 
             // textNumber1
             // 
-            this.textNumber1.Location = new System.Drawing.Point(12, 13);
+            this.textNumber1.Location = new System.Drawing.Point(8, 8);
+            this.textNumber1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textNumber1.Name = "textNumber1";
-            this.textNumber1.Size = new System.Drawing.Size(263, 26);
+            this.textNumber1.Size = new System.Drawing.Size(177, 20);
             this.textNumber1.TabIndex = 0;
             this.textNumber1.TextChanged += new System.EventHandler(this.textNumber1_TextChanged);
             // 
             // textNumber2
             // 
-            this.textNumber2.Location = new System.Drawing.Point(12, 45);
+            this.textNumber2.Location = new System.Drawing.Point(8, 29);
+            this.textNumber2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textNumber2.Name = "textNumber2";
-            this.textNumber2.Size = new System.Drawing.Size(263, 26);
+            this.textNumber2.Size = new System.Drawing.Size(177, 20);
             this.textNumber2.TabIndex = 1;
             this.textNumber2.TextChanged += new System.EventHandler(this.textNumber2_TextChanged);
             // 
             // Addition
             // 
-            this.Addition.Location = new System.Drawing.Point(12, 153);
+            this.Addition.Location = new System.Drawing.Point(8, 99);
+            this.Addition.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Addition.Name = "Addition";
-            this.Addition.Size = new System.Drawing.Size(79, 61);
+            this.Addition.Size = new System.Drawing.Size(53, 40);
             this.Addition.TabIndex = 2;
             this.Addition.Text = "+";
             this.Addition.UseVisualStyleBackColor = true;
@@ -94,9 +97,10 @@
             // 
             // Substraction
             // 
-            this.Substraction.Location = new System.Drawing.Point(97, 153);
+            this.Substraction.Location = new System.Drawing.Point(65, 99);
+            this.Substraction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Substraction.Name = "Substraction";
-            this.Substraction.Size = new System.Drawing.Size(79, 61);
+            this.Substraction.Size = new System.Drawing.Size(53, 40);
             this.Substraction.TabIndex = 3;
             this.Substraction.Text = "-";
             this.Substraction.UseVisualStyleBackColor = true;
@@ -104,9 +108,10 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(12, 220);
+            this.Multiply.Location = new System.Drawing.Point(8, 143);
+            this.Multiply.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(79, 61);
+            this.Multiply.Size = new System.Drawing.Size(53, 40);
             this.Multiply.TabIndex = 4;
             this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = true;
@@ -114,9 +119,10 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(97, 220);
+            this.Division.Location = new System.Drawing.Point(65, 143);
+            this.Division.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(79, 61);
+            this.Division.Size = new System.Drawing.Size(53, 40);
             this.Division.TabIndex = 5;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
@@ -124,18 +130,20 @@
             // 
             // textResult
             // 
-            this.textResult.Location = new System.Drawing.Point(12, 77);
+            this.textResult.Location = new System.Drawing.Point(8, 50);
+            this.textResult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textResult.Name = "textResult";
-            this.textResult.Size = new System.Drawing.Size(263, 26);
+            this.textResult.Size = new System.Drawing.Size(177, 20);
             this.textResult.TabIndex = 6;
             this.textResult.TextChanged += new System.EventHandler(this.textResult_TextChanged);
             // 
             // labelOne
             // 
             this.labelOne.AutoSize = true;
-            this.labelOne.Location = new System.Drawing.Point(281, 13);
+            this.labelOne.Location = new System.Drawing.Point(187, 8);
+            this.labelOne.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelOne.Name = "labelOne";
-            this.labelOne.Size = new System.Drawing.Size(96, 20);
+            this.labelOne.Size = new System.Drawing.Size(65, 13);
             this.labelOne.TabIndex = 7;
             this.labelOne.Text = "Number one";
             this.labelOne.Click += new System.EventHandler(this.label1_Click);
@@ -143,26 +151,29 @@
             // labelTwo
             // 
             this.labelTwo.AutoSize = true;
-            this.labelTwo.Location = new System.Drawing.Point(281, 45);
+            this.labelTwo.Location = new System.Drawing.Point(187, 29);
+            this.labelTwo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTwo.Name = "labelTwo";
-            this.labelTwo.Size = new System.Drawing.Size(94, 20);
+            this.labelTwo.Size = new System.Drawing.Size(64, 13);
             this.labelTwo.TabIndex = 8;
             this.labelTwo.Text = "Number two";
             // 
             // labelResult
             // 
             this.labelResult.AutoSize = true;
-            this.labelResult.Location = new System.Drawing.Point(281, 77);
+            this.labelResult.Location = new System.Drawing.Point(187, 50);
+            this.labelResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(55, 20);
+            this.labelResult.Size = new System.Drawing.Size(37, 13);
             this.labelResult.TabIndex = 9;
             this.labelResult.Text = "Result";
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(12, 307);
+            this.Sinus.Location = new System.Drawing.Point(8, 200);
+            this.Sinus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Sinus.Name = "Sinus";
-            this.Sinus.Size = new System.Drawing.Size(79, 61);
+            this.Sinus.Size = new System.Drawing.Size(53, 40);
             this.Sinus.TabIndex = 10;
             this.Sinus.Text = "sin(x)";
             this.Sinus.UseVisualStyleBackColor = true;
@@ -170,9 +181,10 @@
             // 
             // Square
             // 
-            this.Square.Location = new System.Drawing.Point(97, 374);
+            this.Square.Location = new System.Drawing.Point(65, 243);
+            this.Square.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Square.Name = "Square";
-            this.Square.Size = new System.Drawing.Size(79, 61);
+            this.Square.Size = new System.Drawing.Size(53, 40);
             this.Square.TabIndex = 11;
             this.Square.Text = "x^2";
             this.Square.UseVisualStyleBackColor = true;
@@ -180,9 +192,10 @@
             // 
             // Cosinus
             // 
-            this.Cosinus.Location = new System.Drawing.Point(97, 307);
+            this.Cosinus.Location = new System.Drawing.Point(65, 200);
+            this.Cosinus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Cosinus.Name = "Cosinus";
-            this.Cosinus.Size = new System.Drawing.Size(79, 61);
+            this.Cosinus.Size = new System.Drawing.Size(53, 40);
             this.Cosinus.TabIndex = 12;
             this.Cosinus.Text = "cos(x)";
             this.Cosinus.UseVisualStyleBackColor = true;
@@ -190,9 +203,10 @@
             // 
             // Tangens
             // 
-            this.Tangens.Location = new System.Drawing.Point(12, 374);
+            this.Tangens.Location = new System.Drawing.Point(8, 243);
+            this.Tangens.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tangens.Name = "Tangens";
-            this.Tangens.Size = new System.Drawing.Size(79, 61);
+            this.Tangens.Size = new System.Drawing.Size(53, 40);
             this.Tangens.TabIndex = 13;
             this.Tangens.Text = "tg(x)";
             this.Tangens.UseVisualStyleBackColor = true;
@@ -201,9 +215,10 @@
             // labelFife
             // 
             this.labelFife.AutoSize = true;
-            this.labelFife.Location = new System.Drawing.Point(12, 284);
+            this.labelFife.Location = new System.Drawing.Point(8, 185);
+            this.labelFife.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelFife.Name = "labelFife";
-            this.labelFife.Size = new System.Drawing.Size(187, 20);
+            this.labelFife.Size = new System.Drawing.Size(124, 13);
             this.labelFife.TabIndex = 15;
             this.labelFife.Text = "One Argument Functions";
             this.labelFife.Click += new System.EventHandler(this.labelFife_Click);
@@ -211,17 +226,19 @@
             // labelFour
             // 
             this.labelFour.AutoSize = true;
-            this.labelFour.Location = new System.Drawing.Point(12, 130);
+            this.labelFour.Location = new System.Drawing.Point(8, 84);
+            this.labelFour.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelFour.Name = "labelFour";
-            this.labelFour.Size = new System.Drawing.Size(186, 20);
+            this.labelFour.Size = new System.Drawing.Size(125, 13);
             this.labelFour.TabIndex = 16;
             this.labelFour.Text = "Two Argument Functions";
             // 
             // TwoExp
             // 
-            this.TwoExp.Location = new System.Drawing.Point(370, 374);
+            this.TwoExp.Location = new System.Drawing.Point(246, 243);
+            this.TwoExp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TwoExp.Name = "TwoExp";
-            this.TwoExp.Size = new System.Drawing.Size(79, 61);
+            this.TwoExp.Size = new System.Drawing.Size(53, 40);
             this.TwoExp.TabIndex = 20;
             this.TwoExp.Text = "2^x";
             this.TwoExp.UseVisualStyleBackColor = true;
@@ -229,9 +246,10 @@
             // 
             // Arcsin
             // 
-            this.Arcsin.Location = new System.Drawing.Point(285, 374);
+            this.Arcsin.Location = new System.Drawing.Point(189, 243);
+            this.Arcsin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Arcsin.Name = "Arcsin";
-            this.Arcsin.Size = new System.Drawing.Size(79, 61);
+            this.Arcsin.Size = new System.Drawing.Size(53, 40);
             this.Arcsin.TabIndex = 19;
             this.Arcsin.Text = "asin(x)";
             this.Arcsin.UseVisualStyleBackColor = true;
@@ -239,9 +257,10 @@
             // 
             // Arctg
             // 
-            this.Arctg.Location = new System.Drawing.Point(370, 307);
+            this.Arctg.Location = new System.Drawing.Point(246, 200);
+            this.Arctg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Arctg.Name = "Arctg";
-            this.Arctg.Size = new System.Drawing.Size(79, 61);
+            this.Arctg.Size = new System.Drawing.Size(53, 40);
             this.Arctg.TabIndex = 18;
             this.Arctg.Text = "atg(x)";
             this.Arctg.UseVisualStyleBackColor = true;
@@ -249,9 +268,10 @@
             // 
             // Arccos
             // 
-            this.Arccos.Location = new System.Drawing.Point(285, 307);
+            this.Arccos.Location = new System.Drawing.Point(189, 200);
+            this.Arccos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Arccos.Name = "Arccos";
-            this.Arccos.Size = new System.Drawing.Size(79, 61);
+            this.Arccos.Size = new System.Drawing.Size(53, 40);
             this.Arccos.TabIndex = 17;
             this.Arccos.Text = "acos(x)";
             this.Arccos.UseVisualStyleBackColor = true;
@@ -259,9 +279,10 @@
             // 
             // Exp
             // 
-            this.Exp.Location = new System.Drawing.Point(540, 374);
+            this.Exp.Location = new System.Drawing.Point(359, 243);
+            this.Exp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Exp.Name = "Exp";
-            this.Exp.Size = new System.Drawing.Size(79, 61);
+            this.Exp.Size = new System.Drawing.Size(53, 40);
             this.Exp.TabIndex = 24;
             this.Exp.Text = "e^x";
             this.Exp.UseVisualStyleBackColor = true;
@@ -269,9 +290,10 @@
             // 
             // Module
             // 
-            this.Module.Location = new System.Drawing.Point(455, 374);
+            this.Module.Location = new System.Drawing.Point(302, 243);
+            this.Module.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Module.Name = "Module";
-            this.Module.Size = new System.Drawing.Size(79, 61);
+            this.Module.Size = new System.Drawing.Size(53, 40);
             this.Module.TabIndex = 23;
             this.Module.Text = "|x|";
             this.Module.UseVisualStyleBackColor = true;
@@ -279,9 +301,10 @@
             // 
             // Ln
             // 
-            this.Ln.Location = new System.Drawing.Point(540, 307);
+            this.Ln.Location = new System.Drawing.Point(359, 200);
+            this.Ln.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Ln.Name = "Ln";
-            this.Ln.Size = new System.Drawing.Size(79, 61);
+            this.Ln.Size = new System.Drawing.Size(53, 40);
             this.Ln.TabIndex = 22;
             this.Ln.Text = "ln(x)";
             this.Ln.UseVisualStyleBackColor = true;
@@ -289,9 +312,10 @@
             // 
             // TenExp
             // 
-            this.TenExp.Location = new System.Drawing.Point(455, 307);
+            this.TenExp.Location = new System.Drawing.Point(302, 200);
+            this.TenExp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TenExp.Name = "TenExp";
-            this.TenExp.Size = new System.Drawing.Size(79, 61);
+            this.TenExp.Size = new System.Drawing.Size(53, 40);
             this.TenExp.TabIndex = 21;
             this.TenExp.Text = "10^x";
             this.TenExp.UseVisualStyleBackColor = true;
@@ -299,9 +323,10 @@
             // 
             // Cube
             // 
-            this.Cube.Location = new System.Drawing.Point(625, 374);
+            this.Cube.Location = new System.Drawing.Point(416, 243);
+            this.Cube.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Cube.Name = "Cube";
-            this.Cube.Size = new System.Drawing.Size(79, 61);
+            this.Cube.Size = new System.Drawing.Size(53, 40);
             this.Cube.TabIndex = 26;
             this.Cube.Text = "x^3";
             this.Cube.UseVisualStyleBackColor = true;
@@ -309,9 +334,10 @@
             // 
             // Fraction
             // 
-            this.Fraction.Location = new System.Drawing.Point(625, 307);
+            this.Fraction.Location = new System.Drawing.Point(416, 200);
+            this.Fraction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Fraction.Name = "Fraction";
-            this.Fraction.Size = new System.Drawing.Size(79, 61);
+            this.Fraction.Size = new System.Drawing.Size(53, 40);
             this.Fraction.TabIndex = 25;
             this.Fraction.Text = "1/x";
             this.Fraction.UseVisualStyleBackColor = true;
@@ -319,9 +345,10 @@
             // 
             // SubstractionSquare
             // 
-            this.SubstractionSquare.Location = new System.Drawing.Point(625, 220);
+            this.SubstractionSquare.Location = new System.Drawing.Point(416, 143);
+            this.SubstractionSquare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SubstractionSquare.Name = "SubstractionSquare";
-            this.SubstractionSquare.Size = new System.Drawing.Size(79, 61);
+            this.SubstractionSquare.Size = new System.Drawing.Size(53, 40);
             this.SubstractionSquare.TabIndex = 36;
             this.SubstractionSquare.Text = "x^2-y^2";
             this.SubstractionSquare.UseVisualStyleBackColor = true;
@@ -329,9 +356,10 @@
             // 
             // Pow
             // 
-            this.Pow.Location = new System.Drawing.Point(625, 153);
+            this.Pow.Location = new System.Drawing.Point(416, 99);
+            this.Pow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Pow.Name = "Pow";
-            this.Pow.Size = new System.Drawing.Size(79, 61);
+            this.Pow.Size = new System.Drawing.Size(53, 40);
             this.Pow.TabIndex = 35;
             this.Pow.Text = "x^y";
             this.Pow.UseVisualStyleBackColor = true;
@@ -339,9 +367,10 @@
             // 
             // MultiplySquare
             // 
-            this.MultiplySquare.Location = new System.Drawing.Point(540, 220);
+            this.MultiplySquare.Location = new System.Drawing.Point(359, 143);
+            this.MultiplySquare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MultiplySquare.Name = "MultiplySquare";
-            this.MultiplySquare.Size = new System.Drawing.Size(79, 61);
+            this.MultiplySquare.Size = new System.Drawing.Size(53, 40);
             this.MultiplySquare.TabIndex = 34;
             this.MultiplySquare.Text = "x^2*y^2";
             this.MultiplySquare.UseVisualStyleBackColor = true;
@@ -349,9 +378,10 @@
             // 
             // Min
             // 
-            this.Min.Location = new System.Drawing.Point(455, 220);
+            this.Min.Location = new System.Drawing.Point(302, 143);
+            this.Min.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Min.Name = "Min";
-            this.Min.Size = new System.Drawing.Size(79, 61);
+            this.Min.Size = new System.Drawing.Size(53, 40);
             this.Min.TabIndex = 33;
             this.Min.Text = "min";
             this.Min.UseVisualStyleBackColor = true;
@@ -359,9 +389,10 @@
             // 
             // MultiplyCube
             // 
-            this.MultiplyCube.Location = new System.Drawing.Point(540, 153);
+            this.MultiplyCube.Location = new System.Drawing.Point(359, 99);
+            this.MultiplyCube.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MultiplyCube.Name = "MultiplyCube";
-            this.MultiplyCube.Size = new System.Drawing.Size(79, 61);
+            this.MultiplyCube.Size = new System.Drawing.Size(53, 40);
             this.MultiplyCube.TabIndex = 32;
             this.MultiplyCube.Text = "x^3*y^3";
             this.MultiplyCube.UseVisualStyleBackColor = true;
@@ -369,9 +400,10 @@
             // 
             // Max
             // 
-            this.Max.Location = new System.Drawing.Point(455, 153);
+            this.Max.Location = new System.Drawing.Point(302, 99);
+            this.Max.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Max.Name = "Max";
-            this.Max.Size = new System.Drawing.Size(79, 61);
+            this.Max.Size = new System.Drawing.Size(53, 40);
             this.Max.TabIndex = 31;
             this.Max.Text = "max";
             this.Max.UseVisualStyleBackColor = true;
@@ -379,9 +411,10 @@
             // 
             // DivisionSquare
             // 
-            this.DivisionSquare.Location = new System.Drawing.Point(370, 220);
+            this.DivisionSquare.Location = new System.Drawing.Point(246, 143);
+            this.DivisionSquare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DivisionSquare.Name = "DivisionSquare";
-            this.DivisionSquare.Size = new System.Drawing.Size(79, 61);
+            this.DivisionSquare.Size = new System.Drawing.Size(53, 40);
             this.DivisionSquare.TabIndex = 30;
             this.DivisionSquare.Text = "x^2/y^2";
             this.DivisionSquare.UseVisualStyleBackColor = true;
@@ -389,9 +422,10 @@
             // 
             // AdditionSquare
             // 
-            this.AdditionSquare.Location = new System.Drawing.Point(285, 220);
+            this.AdditionSquare.Location = new System.Drawing.Point(189, 143);
+            this.AdditionSquare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AdditionSquare.Name = "AdditionSquare";
-            this.AdditionSquare.Size = new System.Drawing.Size(79, 61);
+            this.AdditionSquare.Size = new System.Drawing.Size(53, 40);
             this.AdditionSquare.TabIndex = 29;
             this.AdditionSquare.Text = "x^2+y^2";
             this.AdditionSquare.UseVisualStyleBackColor = true;
@@ -399,9 +433,10 @@
             // 
             // DivisionCube
             // 
-            this.DivisionCube.Location = new System.Drawing.Point(370, 153);
+            this.DivisionCube.Location = new System.Drawing.Point(246, 99);
+            this.DivisionCube.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DivisionCube.Name = "DivisionCube";
-            this.DivisionCube.Size = new System.Drawing.Size(79, 61);
+            this.DivisionCube.Size = new System.Drawing.Size(53, 40);
             this.DivisionCube.TabIndex = 28;
             this.DivisionCube.Text = "x^3/y^3";
             this.DivisionCube.UseVisualStyleBackColor = true;
@@ -409,9 +444,10 @@
             // 
             // AdditionCube
             // 
-            this.AdditionCube.Location = new System.Drawing.Point(285, 153);
+            this.AdditionCube.Location = new System.Drawing.Point(189, 99);
+            this.AdditionCube.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AdditionCube.Name = "AdditionCube";
-            this.AdditionCube.Size = new System.Drawing.Size(79, 61);
+            this.AdditionCube.Size = new System.Drawing.Size(53, 40);
             this.AdditionCube.TabIndex = 27;
             this.AdditionCube.Text = "x^3+y^3";
             this.AdditionCube.UseVisualStyleBackColor = true;
@@ -419,9 +455,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 471);
+            this.ClientSize = new System.Drawing.Size(480, 306);
             this.Controls.Add(this.SubstractionSquare);
             this.Controls.Add(this.Pow);
             this.Controls.Add(this.MultiplySquare);
@@ -458,6 +494,7 @@
             this.Controls.Add(this.Addition);
             this.Controls.Add(this.textNumber2);
             this.Controls.Add(this.textNumber1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

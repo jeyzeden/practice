@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace calculator.TwoArgument
 {
     public class TwoArgumentsFactory

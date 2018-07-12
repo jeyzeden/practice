@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace calculator.OneArgument
 {
     public class Sinus : IOneArgumentFactory

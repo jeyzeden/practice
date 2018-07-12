@@ -1,10 +1,11 @@
 ﻿using System;
+
 namespace calculator.OneArgument
 {
     public class OneArgumentFactory
     {
         /// <summary>
-        /// fabrica for function of one variables 
+        /// factory for function of one variable
         /// </summary>
         /// the definition of the function on click
         /// <param name="calculatorName"></param>

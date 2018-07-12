@@ -16,8 +16,8 @@ namespace calculator.Test.TwoArgument
             double result = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, result, 0.01);
         }
-        [TestCase(0)]
-        [TestCase(10)]
+
+        [TestCase(10, 0 )]
         public void ExceptionLessThanZeroTest(double firstArgument, double secondArgument)
         {
             var calculator = new Division();
